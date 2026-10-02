@@ -1,86 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Blackout pardalar — ATOYA. Xonangiz o‘lchamiga moslab individual tikiladigan, yorug‘likni to‘suvchi zamonaviy pardalar. O‘lchov va o‘rnatish xizmati." data-i18n-attr="content:meta.single.desc">
+    <meta name="author" content="ATOYA">
 
-    <title>Hexashop - Product Detail Page</title>
+    <title data-i18n="meta.single.title">Blackout pardalar — ATOYA</title>
 
+    <link rel="canonical" href="https://atoya.uz/single-product.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
     <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
-
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
-
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
--->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- https://atoya.uz -->
     </head>
-    
+
     <body>
-    
+
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Asosiy kontentga o‘tish</a>
+
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    <div id="preloader" aria-hidden="true">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
-    
-    
+
+
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/with-logo.png">
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="index.html">Men's</a></li>
-                            <li class="scroll-to-section"><a href="index.html">Women's</a></li>
-                            <li class="scroll-to-section"><a href="index.html">Kid's</a></li>
-                            <li class="submenu">
-                                <a href="javascript:;">Pages</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="single-product.html">Single Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="ATOYA — bosh sahifa" data-i18n-attr="aria-label:brand.home">
+                <img src="assets/images/with-logo.png" alt="ATOYA" width="195" height="59">
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Menyuni ochish" data-i18n-attr="aria-label:nav.toggle">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="siteNav" aria-label="Asosiy menyu" data-i18n-attr="aria-label:nav.main">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="index.html" data-i18n="nav.home">Bosh sahifa</a></li>
+                    <li><a class="nav-link active" href="index.html#men" data-i18n="nav.curtains">Pardalar</a></li>
+                    <li><a class="nav-link" href="index.html#women" data-i18n="nav.clothing">Nafis liboslar</a></li>
+                    <li><a class="nav-link" href="index.html#kids" data-i18n="nav.blinds">Jalyuzi</a></li>
+                    <li class="has-sub">
+                        <button class="nav-link sub-toggle" type="button" aria-expanded="false"><span data-i18n="nav.pages">Sahifalar</span> <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <ul class="sub-menu">
+                            <li><a href="about.html" data-i18n="nav.about">Biz haqimizda</a></li>
+                            <li><a href="products.html" data-i18n="nav.products">Mahsulotlar</a></li>
+                            <li><a href="single-product.html" aria-current="page" data-i18n="nav.single">Mahsulot sahifasi</a></li>
+                            <li><a href="contact.html" data-i18n="nav.contact">Biz bilan bog‘lanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="nav-extra">
+                    <a class="header-phone" href="tel:+998993095800"><i class="fa fa-phone" aria-hidden="true"></i><span>+998 (99) 309-58-00</span></a>
+                    <div class="lang-switch" role="group" aria-label="Tilni tanlash" data-i18n-attr="aria-label:lang.label">
+                        <button type="button" class="lang-btn" data-lang="uz" aria-pressed="true">UZ</button>
+                        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+                        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+
+    <main id="main" tabindex="-1">
 
     <!-- ***** Main Banner Area Start ***** -->
     <div class="page-heading" id="top">
@@ -88,8 +87,14 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>Single Product Page</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <p class="eyebrow" data-i18n="single.eyebrow">Mahsulot haqida</p>
+                        <h1 data-i18n="p.blackout">Blackout pardalar</h1>
+                        <span data-i18n="single.headingSub">Xonangiz o‘lchamiga moslab individual tikiladi</span>
+                        <ul class="breadcrumbs">
+                            <li><a href="index.html" data-i18n="nav.home">Bosh sahifa</a></li>
+                            <li><a href="products.html" data-i18n="nav.products">Mahsulotlar</a></li>
+                            <li data-i18n="p.blackout">Blackout pardalar</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -102,107 +107,114 @@ https://templatemo.com/tm-571-hexashop
     <section class="section" id="product">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
-                <div class="left-images">
-                    <img src="assets/images/single-product-01.jpg" alt="">
-                    <img src="assets/images/single-product-02.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="right-content">
-                    <h4>New Green Jacket</h4>
-                    <span class="price">$75.00</span>
-                    <ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
-                    <div class="quote">
-                        <i class="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod.</p>
-                    </div>
-                    <div class="quantity-content">
-                        <div class="left-content">
-                            <h6>No. of Orders</h6>
+                <div class="col-lg-7">
+                    <div class="left-images product-gallery reveal">
+                        <div class="main-image">
+                            <img id="productMainImage" src="assets/images/pardalar/01.jpg" alt="Blackout pardalar" data-i18n-attr="alt:p.blackout">
                         </div>
-                        <div class="right-content">
-                            <div class="quantity buttons_added">
-                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                        <div class="product-thumbs">
+                            <button type="button" class="thumb-btn" data-src="assets/images/pardalar/01.jpg" aria-current="true" aria-label="1-rasm" data-i18n-attr="aria-label:single.img1"><img src="assets/images/pardalar/01.jpg" alt=""></button>
+                            <button type="button" class="thumb-btn" data-src="assets/images/pardalar/02.jpg" aria-current="false" aria-label="2-rasm" data-i18n-attr="aria-label:single.img2"><img src="assets/images/pardalar/02.jpg" alt=""></button>
+                            <button type="button" class="thumb-btn" data-src="assets/images/pardalar/03.jpg" aria-current="false" aria-label="3-rasm" data-i18n-attr="aria-label:single.img3"><img src="assets/images/pardalar/03.jpg" alt=""></button>
+                            <button type="button" class="thumb-btn" data-src="assets/images/pardalar/04.jpg" aria-current="false" aria-label="4-rasm" data-i18n-attr="aria-label:single.img4"><img src="assets/images/pardalar/04.jpg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="right-content reveal">
+                        <span class="product-tag" data-i18n="tag.curtains">Pardalar</span>
+                        <h2 data-i18n="p.blackout">Blackout pardalar</h2>
+                        <span class="price" data-i18n="single.price">Narxi: o‘lcham va matoga qarab kelishiladi</span>
+                        <span class="product-desc" data-i18n="single.desc">Blackout pardalar quyosh nurini to‘sib, xonada qulaylik va maxfiylikni ta’minlaydi. Yotoqxona, bolalar xonasi, ofis va mehmonxonalar uchun ajoyib yechim.</span>
+                        <div class="quote">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i><p data-i18n="single.quote">Har bir parda xonangiz o‘lchamiga moslab, individual tikiladi.</p>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span data-i18n="single.f1">Individual o‘lcham bo‘yicha tikish</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span data-i18n="single.f2">Keng rang va mato tanlovi</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span data-i18n="single.f3">Professional o‘lchov va o‘rnatish</span></li>
+                        </ul>
+                        <div class="quantity-content">
+                            <div class="left-content">
+                                <h6><label for="qty" data-i18n="single.qty">Derazalar soni</label></h6>
+                            </div>
+                            <div class="right-content">
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus" aria-label="Kamaytirish" data-i18n-attr="aria-label:single.minus"><input type="number" id="qty" step="1" min="1" name="quantity" value="1" class="input-text qty text" inputmode="numeric"><input type="button" value="+" class="plus" aria-label="Ko‘paytirish" data-i18n-attr="aria-label:single.plus">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="total">
-                        <h4>Total: $210.00</h4>
-                        <div class="main-border-button"><a href="#">Add To Cart</a></div>
+                        <div class="product-cta">
+                            <a class="btn-atoya btn-gold" href="contact.html"><span data-i18n="card.order">Buyurtma berish</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <a class="btn-atoya" href="tel:+998993095800"><i class="fa fa-phone" aria-hidden="true"></i> <span data-i18n="hero.call">Qo‘ng‘iroq qilish</span></a>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
     <!-- ***** Product Area Ends ***** -->
-    
+
+    </main>
+
     <!-- ***** Footer Start ***** -->
-    <footer>
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="first-item">
                         <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
+                            <img src="assets/images/logo.png" alt="ATOYA" width="195" height="59" loading="lazy">
                         </div>
-                        <ul>
-                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
-                            <li><a href="#">010-020-0340</a></li>
+                        <p class="footer-tagline" data-i18n="footer.tagline">Premium pardalar va interyer yechimlari</p>
+                        <ul class="footer-contacts">
+                            <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Zangiota%20masjidi%2C%20Zangiota%20tumani%2C%20Toshkent%20viloyati" target="_blank" rel="noopener"><i class="fa fa-map-marker" aria-hidden="true"></i><span data-i18n="footer.address">Toshkent viloyati, Zangi ota tumani, Amir Temur ko‘chasi 217-uy</span></a></li>
+                            <li><a href="index.html"><i class="fa fa-globe" aria-hidden="true"></i><span>atoya.uz</span></a></li>
+                            <li><a href="tel:+998993095800"><i class="fa fa-phone" aria-hidden="true"></i><span>+998 (99) 309-58-00</span></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Shopping &amp; Categories</h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 data-i18n="footer.catalog">Katalog</h4>
                     <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
+                        <li><a href="index.html#men" data-i18n="footer.curtains">Pardalar</a></li>
+                        <li><a href="index.html#women" data-i18n="footer.clothing">Liboslar kolleksiyasi</a></li>
+                        <li><a href="index.html#kids" data-i18n="footer.blinds">Jalyuzilar</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Useful Links</h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 data-i18n="footer.pages">Sahifalar</h4>
                     <ul>
-                        <li><a href="#">Homepage</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="index.html" data-i18n="footer.home">Bosh sahifa</a></li>
+                        <li><a href="about.html" data-i18n="footer.about">Biz haqimizda</a></li>
+                        <li><a href="products.html" data-i18n="footer.info">Ma’lumot olish</a></li>
+                        <li><a href="contact.html" data-i18n="footer.contact">Biz bilan bog‘lanish</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Help &amp; Information</h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 data-i18n="footer.help">Yordam va ma’lumot</h4>
                     <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Tracking ID</a></li>
+                        <li><a href="contact.html" data-i18n="footer.appeal">Murojaat etish</a></li>
+                        <li><a href="contact.html" data-i18n="footer.faq">Ko‘p beriladigan savollar</a></li>
+                        <li><a href="contact.html" data-i18n="footer.delivery">Yetkazib berish</a></li>
+                        <li><a href="contact.html" data-i18n="footer.orderInfo">Buyurtma haqida ma’lumot olish</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. 
-                        
-                        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+                        <p data-i18n="footer.copy">© 2026 ATOYA. Barcha huquqlar himoyalangan.</p>
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="https://www.instagram.com/atoya.uz?igsi=bTBwMnZreWVxa3k=" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="tel:+998993095800" aria-label="Telefon" data-i18n-attr="aria-label:a11y.phone"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                            <li><a href="mailto:atoya@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    
+    <!-- ***** Footer End ***** -->
+
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
@@ -218,32 +230,17 @@ https://templatemo.com/tm-571-hexashop
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/slick.js"></script> 
-    <script src="assets/js/lightbox.js"></script> 
-    <script src="assets/js/isotope.js"></script> 
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/isotope.js"></script>
     <script src="assets/js/quantity.js"></script>
-    
+
+    <!-- Translations (UZ / RU / EN) -->
+    <script src="assets/js/i18n.js"></script>
+
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
-    <script>
-
-        $(function() {
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
-
-    </script>
 
   </body>
 

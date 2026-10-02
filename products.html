@@ -1,86 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ATOYA katalogi: pardalar, jalyuzilar hamda ayollar, erkaklar va bolalar liboslari kolleksiyalari. Individual buyurtma va professional o‘rnatish." data-i18n-attr="content:meta.products.desc">
+    <meta name="author" content="ATOYA">
 
-    <title>Hexashop - Product Listing Page</title>
+    <title data-i18n="meta.products.title">Katalog — ATOYA | Pardalar, jalyuzilar va liboslar</title>
 
+    <link rel="canonical" href="https://atoya.uz/products.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
     <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
-
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
-
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
--->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- https://atoya.uz -->
     </head>
-    
+
     <body>
-    
+
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Asosiy kontentga o‘tish</a>
+
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    <div id="preloader" aria-hidden="true">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
-    
-    
+
+
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/with-logo.png">
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="index.html">Men's</a></li>
-                            <li class="scroll-to-section"><a href="index.html">Women's</a></li>
-                            <li class="scroll-to-section"><a href="index.html">Kid's</a></li>
-                            <li class="submenu">
-                                <a href="javascript:;">Pages</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="single-product.html">Single Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="ATOYA — bosh sahifa" data-i18n-attr="aria-label:brand.home">
+                <img src="assets/images/with-logo.png" alt="ATOYA" width="195" height="59">
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Menyuni ochish" data-i18n-attr="aria-label:nav.toggle">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="siteNav" aria-label="Asosiy menyu" data-i18n-attr="aria-label:nav.main">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="index.html" data-i18n="nav.home">Bosh sahifa</a></li>
+                    <li><a class="nav-link" href="index.html#men" data-i18n="nav.curtains">Pardalar</a></li>
+                    <li><a class="nav-link" href="index.html#women" data-i18n="nav.clothing">Nafis liboslar</a></li>
+                    <li><a class="nav-link" href="index.html#kids" data-i18n="nav.blinds">Jalyuzi</a></li>
+                    <li class="has-sub">
+                        <button class="nav-link sub-toggle active" type="button" aria-expanded="false"><span data-i18n="nav.pages">Sahifalar</span> <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <ul class="sub-menu">
+                            <li><a href="about.html" data-i18n="nav.about">Biz haqimizda</a></li>
+                            <li><a href="products.html" aria-current="page" data-i18n="nav.products">Mahsulotlar</a></li>
+                            <li><a href="single-product.html" data-i18n="nav.single">Mahsulot sahifasi</a></li>
+                            <li><a href="contact.html" data-i18n="nav.contact">Biz bilan bog‘lanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="nav-extra">
+                    <a class="header-phone" href="tel:+998993095800"><i class="fa fa-phone" aria-hidden="true"></i><span>+998 (99) 309-58-00</span></a>
+                    <div class="lang-switch" role="group" aria-label="Tilni tanlash" data-i18n-attr="aria-label:lang.label">
+                        <button type="button" class="lang-btn" data-lang="uz" aria-pressed="true">UZ</button>
+                        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+                        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+
+    <main id="main" tabindex="-1">
 
     <!-- ***** Main Banner Area Start ***** -->
     <div class="page-heading" id="top">
@@ -88,8 +87,13 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>Check Our Products</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <p class="eyebrow" data-i18n="products.eyebrow">Katalog</p>
+                        <h1 data-i18n="products.heading">Mahsulotlarimiz bilan tanishing</h1>
+                        <span data-i18n="products.headingSub">Pardalar, jalyuzilar va liboslar kolleksiyalari</span>
+                        <ul class="breadcrumbs">
+                            <li><a href="index.html" data-i18n="nav.home">Bosh sahifa</a></li>
+                            <li data-i18n="nav.products">Mahsulotlar</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -103,325 +107,136 @@ https://templatemo.com/tm-571-hexashop
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2>Our Latest Products</h2>
-                        <span>Check out all of our products.</span>
+                    <div class="section-heading text-center">
+                        <h2 data-i18n="products.title">Bizning so‘nggi mahsulotlarimiz</h2>
+                        <span data-i18n="products.text">Barcha kolleksiyalarimiz bilan tanishing.</span>
+                    </div>
+                    <div class="filter-bar" role="group" aria-label="Kategoriya bo‘yicha saralash" data-i18n-attr="aria-label:filter.label">
+                        <button type="button" class="filter-btn" data-filter="all" aria-pressed="true" data-i18n="filter.all">Barchasi</button>
+                        <button type="button" class="filter-btn" data-filter="curtains" aria-pressed="false" data-i18n="tag.curtains">Pardalar</button>
+                        <button type="button" class="filter-btn" data-filter="blinds" aria-pressed="false" data-i18n="tag.blinds">Jalyuzi</button>
+                        <button type="button" class="filter-btn" data-filter="women" aria-pressed="false" data-i18n="tag.women">Ayollar</button>
+                        <button type="button" class="filter-btn" data-filter="men" aria-pressed="false" data-i18n="tag.men">Erkaklar</button>
+                        <button type="button" class="filter-btn" data-filter="kids" aria-pressed="false" data-i18n="tag.kids">Bolalar</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/men-01.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Classic Spring</h4>
-                            <span>$120.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
+            <!-- Cards are rendered by assets/js/custom.js from assets/js/products-data.js -->
+            <div class="row product-grid" id="productGrid"></div>
+            <!-- Shown instead of the grid for collections that have no products yet (men's, kids') -->
+            <div class="coming-soon" id="catalogSoon" hidden>
+                <div class="cs-ornament" aria-hidden="true">
+                    <span class="cs-line"></span>
+                    <span class="cs-emblem"><i class="fa fa-diamond"></i></span>
+                    <span class="cs-line"></span>
                 </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/men-02.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Air Force 1 X</h4>
-                            <span>$90.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/men-03.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Love Nana ‘20</h4>
-                            <span>$150.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/women-01.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>New Green Jacket</h4>
-                            <span>$75.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/women-02.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Classic Dress</h4>
-                            <span>$45.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/women-03.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Spring Collection</h4>
-                            <span>$130.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/kid-01.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>School Collection</h4>
-                            <span>$80.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/kid-02.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Summer Cap</h4>
-                            <span>$12.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/kid-03.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Classic Kid</h4>
-                            <span>$30.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="pagination">
-                        <ul>
-                            <li>
-                                <a href="#">1</a>
-                            </li>
-                            <li class="active">
-                                <a href="#">2</a>
-                            </li>
-                            <li>
-                                <a href="#">3</a>
-                            </li>
-                            <li>
-                                <a href="#">4</a>
-                            </li>
-                            <li>
-                                <a href="#">></a>
-                            </li>
-                        </ul>
-                    </div>
+                <p class="eyebrow cs-eyebrow" id="catalogSoonCollection">ATOYA</p>
+                <h3 class="cs-title" data-i18n="soon.title">Tez kunda</h3>
+                <p class="cs-lead" data-i18n="soon.lead">Yangi kolleksiya ustida ishlayapmiz.</p>
+                <p class="cs-text" data-i18n="soon.text">Yangi mahsulotlar tez orada taqdim etiladi — yangiliklarimizni kuzatib boring.</p>
+                <div class="cs-actions">
+                    <button type="button" class="btn-atoya btn-gold" id="catalogSoonBack"><span data-i18n="soon.back">Boshqa kolleksiyalarni ko‘rish</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                    <a class="btn-atoya" href="https://www.instagram.com/atoya.uz?igsi=bTBwMnZreWVxa3k=" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i> <span data-i18n="gallery.cta">Instagram’da kuzatish</span></a>
                 </div>
             </div>
+            <div class="catalog-more">
+                <button type="button" class="btn-atoya" id="catalogMore" hidden><span data-i18n="catalog.more">Yana ko‘rsatish</span> <span class="catalog-more-count"></span></button>
+            </div>
+            <noscript>
+                <p class="text-center">Katalogni ko‘rish uchun brauzeringizda JavaScript yoqilgan bo‘lishi kerak. Telefon: <a href="tel:+998993095800">+998 (99) 309-58-00</a></p>
+            </noscript>
         </div>
     </section>
     <!-- ***** Products Area Ends ***** -->
-    
+
+    <!-- ***** Product Gallery (modal) ***** -->
+    <div class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="pmTitle" hidden>
+        <div class="pm-backdrop" data-pm-close></div>
+        <div class="pm-dialog" role="document">
+            <button type="button" class="pm-close" data-pm-close aria-label="Yopish" data-i18n-attr="aria-label:pm.close"><i class="fa fa-times" aria-hidden="true"></i></button>
+            <div class="pm-gallery">
+                <div class="pm-stage">
+                    <img id="pmImage" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
+                    <button type="button" class="pm-nav pm-prev" aria-label="Oldingi" data-i18n-attr="aria-label:owl.prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <button type="button" class="pm-nav pm-next" aria-label="Keyingi" data-i18n-attr="aria-label:owl.next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <span class="pm-counter" aria-live="polite"></span>
+                </div>
+                <div class="pm-thumbs"></div>
+            </div>
+            <div class="pm-info">
+                <span class="product-tag" id="pmTag"></span>
+                <h2 id="pmTitle">ATOYA</h2>
+                <p class="pm-price" data-i18n="card.price">Narxi kelishiladi</p>
+                <div class="product-cta">
+                    <a class="btn-atoya btn-gold" href="contact.html"><span data-i18n="card.order">Buyurtma berish</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a class="btn-atoya" href="tel:+998993095800"><i class="fa fa-phone" aria-hidden="true"></i> <span data-i18n="hero.call">Qo‘ng‘iroq qilish</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
     <!-- ***** Footer Start ***** -->
-    <footer>
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="first-item">
                         <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
+                            <img src="assets/images/logo.png" alt="ATOYA" width="195" height="59" loading="lazy">
                         </div>
-                        <ul>
-                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
-                            <li><a href="#">010-020-0340</a></li>
+                        <p class="footer-tagline" data-i18n="footer.tagline">Premium pardalar va interyer yechimlari</p>
+                        <ul class="footer-contacts">
+                            <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Zangiota%20masjidi%2C%20Zangiota%20tumani%2C%20Toshkent%20viloyati" target="_blank" rel="noopener"><i class="fa fa-map-marker" aria-hidden="true"></i><span data-i18n="footer.address">Toshkent viloyati, Zangi ota tumani, Amir Temur ko‘chasi 217-uy</span></a></li>
+                            <li><a href="index.html"><i class="fa fa-globe" aria-hidden="true"></i><span>atoya.uz</span></a></li>
+                            <li><a href="tel:+998993095800"><i class="fa fa-phone" aria-hidden="true"></i><span>+998 (99) 309-58-00</span></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Shopping &amp; Categories</h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 data-i18n="footer.catalog">Katalog</h4>
                     <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
+                        <li><a href="index.html#men" data-i18n="footer.curtains">Pardalar</a></li>
+                        <li><a href="index.html#women" data-i18n="footer.clothing">Liboslar kolleksiyasi</a></li>
+                        <li><a href="index.html#kids" data-i18n="footer.blinds">Jalyuzilar</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Useful Links</h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 data-i18n="footer.pages">Sahifalar</h4>
                     <ul>
-                        <li><a href="#">Homepage</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="index.html" data-i18n="footer.home">Bosh sahifa</a></li>
+                        <li><a href="about.html" data-i18n="footer.about">Biz haqimizda</a></li>
+                        <li><a href="products.html" data-i18n="footer.info">Ma’lumot olish</a></li>
+                        <li><a href="contact.html" data-i18n="footer.contact">Biz bilan bog‘lanish</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h4>Help &amp; Information</h4>
+                <div class="col-lg-3 col-md-6">
+                    <h4 data-i18n="footer.help">Yordam va ma’lumot</h4>
                     <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Tracking ID</a></li>
+                        <li><a href="contact.html" data-i18n="footer.appeal">Murojaat etish</a></li>
+                        <li><a href="contact.html" data-i18n="footer.faq">Ko‘p beriladigan savollar</a></li>
+                        <li><a href="contact.html" data-i18n="footer.delivery">Yetkazib berish</a></li>
+                        <li><a href="contact.html" data-i18n="footer.orderInfo">Buyurtma haqida ma’lumot olish</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. 
-                        
-                        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+                        <p data-i18n="footer.copy">© 2026 ATOYA. Barcha huquqlar himoyalangan.</p>
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="https://www.instagram.com/atoya.uz?igsi=bTBwMnZreWVxa3k=" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="tel:+998993095800" aria-label="Telefon" data-i18n-attr="aria-label:a11y.phone"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                            <li><a href="mailto:atoya@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    
+    <!-- ***** Footer End ***** -->
+
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
@@ -437,31 +252,19 @@ https://templatemo.com/tm-571-hexashop
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/slick.js"></script> 
-    <script src="assets/js/lightbox.js"></script> 
-    <script src="assets/js/isotope.js"></script> 
-    
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/isotope.js"></script>
+
+    <!-- Product catalog data -->
+    <script src="assets/js/products-data.js"></script>
+
+    <!-- Translations (UZ / RU / EN) -->
+    <script src="assets/js/i18n.js"></script>
+
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
-    <script>
-
-        $(function() {
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
-
-    </script>
 
   </body>
 
